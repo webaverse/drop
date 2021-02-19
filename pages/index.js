@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Hero from "../components/Hero";
+import CryptoSabersHero from "../components/CryptoSabersHero";
 
 export default () => {
  return (
@@ -14,12 +14,7 @@ export default () => {
         <meta name="theme-color" content="#c4005d" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <Hero
-        heroBg=""
-        title=""
-        subtitle=""
-        callToAction=""
-        ctaUrl=""
+      <CryptoSabersHero
       />
       <div className="windowContainer">
         <h1>Season 1</h1>

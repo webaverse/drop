@@ -19,7 +19,7 @@ export default ({heroBg, title, subtitle, callToAction, ctaUrl}) =>
         <model-viewer style={{
 	  height: "100%",
           width: "100%",
-          webkitBoxShadow: "#FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0)",
+          WebkitBoxShadow: "#FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0)",
           boxShadow: "#FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0)"
 	}} className="leftHeroViewer" src="/lightsaber.glb" alt="A 3D model of an light saber" auto-rotate camera-controls></model-viewer>
       </div>

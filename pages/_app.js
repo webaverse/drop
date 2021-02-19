@@ -7,6 +7,7 @@ import { AppWrapper } from "../libs/contextLib";
 
 import '../styles/globals.css';
 import '../styles/home.css';
+import '../styles/cryptoSabersHero.css';
 
 //Binding events
 Router.events.on('routeChangeStart', () => NProgress.start());
